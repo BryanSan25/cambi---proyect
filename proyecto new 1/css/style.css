@@ -78,7 +78,9 @@ body {
     justify-content: space-between;
     width: 400px;
 }
-
+body header .nav-right-index .nav-1 .ul-nav-1 i {
+    display: none;
+}
 
 /* Navegacion de cursos */
 .nav-2 {
@@ -206,6 +208,41 @@ main {
 .coloca-tu-c-index p {
     color: #becde3;
     font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    /* NAV-1 */
+    .contenedor-header-principal {
+        display: block;
+    }
+    .logo-header-index {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .media-q-index {
+        display: flex;
+    }
+    .input-index-index {
+        display: none;
+    }
+    .input-index-index-2 {
+        background-color: transparent;
+    }
+    body header .nav-right-index .nav-1 .ul-nav-1 i {
+        display: block;
+    }
+    body header .nav-right-index .nav-1 .ul-nav-1 li {
+        display: none;
+    }
 }
 
 
