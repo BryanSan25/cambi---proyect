@@ -33,12 +33,13 @@ body {
     display: flex;
 }
 .input-index-header .input-index-index {
-    width: 480px;
+    width: 800px;
     height: 35px;
     background-color: rgba(87, 87, 87, 0.425);
     border: none;
     padding-left: 10px;
     color: rgb(216, 216, 216);
+    border-radius: 20px;
 }
 .input-index-index:focus {
     outline: none;
@@ -47,18 +48,18 @@ body {
     color: rgb(201, 201, 201);
 }
 .input-index-index-2 {
-    width: 50px;
-    background-color: rgb(221, 122, 0);
+    background: transparent;
     border: none;
     cursor: pointer;
+    padding: 8px;
 }
 .input-index-index-2:active {
     transform: scale(.9, .9);
     transition: .1s;
 }
 .input-index-index-2 i {
-    font-size: 17px;
-    color: white;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
 }
 .nav-1 .ul-nav-1 {
     display: flex;
@@ -80,6 +81,10 @@ body {
 }
 body header .nav-right-index .nav-1 .ul-nav-1 i {
     display: none;
+}
+.media-q-index {
+    display: flex;
+    align-items: center;
 }
 
 /* Navegacion de cursos */
@@ -291,6 +296,18 @@ main {
     .main-index-section-1-input input, .button-is-index {
         width: 90%;
         margin: 5px 0;
+    }
+    .blabla {
+        clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    }
+    .blabla {
+        width: 100%;
+        width: 350px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .blabla img {
+        width: 250px;
     }
 }
 
