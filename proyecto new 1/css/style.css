@@ -227,6 +227,7 @@ main {
         width: 100%;
         display: flex;
         justify-content: center;
+        padding-bottom: 20px;
     }
     .media-q-index {
         display: flex;
@@ -236,6 +237,11 @@ main {
     }
     .input-index-index-2 {
         background-color: transparent;
+    }
+    body header .nav-right-index .nav-1 .ul-nav-1 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
     }
     body header .nav-right-index .nav-1 .ul-nav-1 i {
         display: block;
