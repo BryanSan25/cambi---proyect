@@ -52,6 +52,10 @@ body {
     border: none;
     cursor: pointer;
 }
+.input-index-index-2:active {
+    transform: scale(.9, .9);
+    transition: .1s;
+}
 .input-index-index-2 i {
     font-size: 17px;
     color: white;
@@ -64,7 +68,7 @@ body {
     cursor: pointer;
 }
 .li-nav-1:hover {
-    color: rgb(221, 122, 0);
+    color: rgb(255, 140, 0);
 }
 .nav-right-index {
     width: 33%;
@@ -130,7 +134,7 @@ main {
 /* SECTION 1 */
 .section-1-index {
     display: flex;
-    min-height: 350px;
+    min-height: 450px;
     align-items: center;
 }
 .section-1-index .section-1-div-1 {
@@ -152,10 +156,57 @@ main {
 }
 .blabla {
     width: 50%;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: rgb(68, 68, 68);
+    height: 300px;
+    display: flex;
+    justify-content: center;
 }
-
-
-
+.blabla img {
+    width: 370px;
+}
+.main-index-section-1-input {
+    display: flex;
+    align-items: center;
+}
+.main-index-section-1-input input {
+    border-radius: 7px;
+    border: 2px solid rgb(88, 88, 88);
+    background-color: rgb(61, 61, 61);
+    width: 280px;
+    height: 35px;
+    padding-left: 10px;
+    color: #becde3;
+}
+.main-index-section-1-input input:focus {
+    outline: none;
+}
+.button-is-index {
+    background-color: rgb(255, 140, 0);
+    width: 150px;
+    height: 35px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.button-is-index:hover {
+    background-color: rgb(145, 80, 0);
+}
+.button-is-index:active {
+    transform: scale(.9, .9);
+    transition: .1s;
+}
+.coloca-tu-c-index {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.coloca-tu-c-index p {
+    color: #becde3;
+    font-size: 17px;
+}
 
 
 
