@@ -246,8 +246,36 @@ main {
     body header .nav-right-index .nav-1 .ul-nav-1 i {
         display: block;
     }
+    body .nav-1 .ul-nav-1 i:active {
+        transform: scale(.9, .9);
+        transition: .1s;
+    }
     body header .nav-right-index .nav-1 .ul-nav-1 li {
         display: none;
+    }
+
+    /* SECTION 1 */
+    main {
+        width: 95%;
+    }
+    .section-1-index {
+        display: block;
+    }
+    .section-1-index .section-1-div-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .section-1-index .children-section-1-div-1 {
+        width: 90%;
+    }
+    .section-1-index .children-section-1-div-1 h1 {
+        font-size: 28px;
+        line-height: 27px;
+        margin-top: 25px;
+    }
+    .children-section-1-div-1 p {
+        font-size: 12px;
     }
 }
 
