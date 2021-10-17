@@ -221,9 +221,18 @@ main {
     background-color: rgb(255, 140, 0);
     margin: 20px auto;
 }
-.section-2-div-1 h2 {
+.section-2-div-1 {
+    display: flex;
     padding-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-2-div-1 h2 {
     font-size: 27px;
+}
+.section-2-div-1 p {
+    text-decoration: underline;
+    cursor: pointer;
 }
 .contenedor-carrusel {
     display: flex;
@@ -358,8 +367,15 @@ main {
         width: 250px;
     }
     /* SECTION 2 */
+    .section-2-div-1 {
+        display: block;
+    }
     .section-2-div-1 h2 {
-        font-size: 23px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-2-div-1 p {
+        padding-top: 10px;
         text-align: center;
     }
 }
