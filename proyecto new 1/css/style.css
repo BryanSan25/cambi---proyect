@@ -90,7 +90,7 @@ body header .nav-right-index .nav-1 .ul-nav-1 i {
 /* Navegacion de cursos */
 .nav-2 {
     background-color: rgb(29, 29, 29);
-    overflow-y: scroll;
+    overflow-x: scroll;
 }
 body header .nav-2 ul {
     display: flex;
@@ -214,6 +214,45 @@ main {
     color: #becde3;
     font-size: 17px;
 }
+/* SECTION 2 */
+.hr-index {
+    width: 160px;
+    height: 5px;
+    background-color: rgb(255, 140, 0);
+    margin: 20px auto;
+}
+.section-2-div-1 h2 {
+    padding-top: 30px;
+    font-size: 27px;
+}
+.contenedor-carrusel {
+    display: flex;
+    overflow-x: scroll;
+    margin: 20px 0;
+}
+.contenedor-carrusel::-webkit-scrollbar {
+    width: 10px;
+}
+.contenedor-carrusel::-webkit-scrollbar-thumb {
+    background-color: rgb(88, 88, 88);
+    border-radius: 70px;
+}
+.children-carrusel-index {
+    display: block;
+}
+.children-carrusel-index div img {
+    width: 280px;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+.children-carrusel-index div p {
+    padding-bottom: 20px;
+}
+
+
+
+
+
 
 
 
