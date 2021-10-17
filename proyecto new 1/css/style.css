@@ -228,7 +228,7 @@ main {
 .contenedor-carrusel {
     display: flex;
     overflow-x: scroll;
-    margin: 20px 0;
+    margin: 25px 0;
 }
 .contenedor-carrusel::-webkit-scrollbar {
     width: 10px;
@@ -356,6 +356,11 @@ main {
     }
     .blabla img {
         width: 250px;
+    }
+    /* SECTION 2 */
+    .section-2-div-1 h2 {
+        font-size: 23px;
+        text-align: center;
     }
 }
 
